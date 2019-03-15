@@ -20,6 +20,8 @@ public class CallTestController {
     // test
     private String variable;
 
+
+
     @Get("/helloWord")
     public String index() {
         variable = "eu";
