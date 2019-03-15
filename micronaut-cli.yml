@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: ec.com.krugercorp
+---
+testFramework: junit
+sourceLanguage: java

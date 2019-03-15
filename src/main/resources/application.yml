@@ -1,0 +1,5 @@
+micronaut:
+    application:
+        name: keycloak
+    server:
+        port: 8091

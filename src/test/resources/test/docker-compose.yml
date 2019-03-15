@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  devops:
+    image: christiandgv/jenkins:v0.1
+    ports:
+      - "8091"
+    hostname: devops
