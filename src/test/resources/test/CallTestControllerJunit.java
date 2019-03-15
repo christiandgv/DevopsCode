@@ -1,18 +1,18 @@
 package test;
 
+import ec.com.krugercorp.CallTestController;
 import org.junit.Test;
+
+import javax.validation.constraints.AssertTrue;
 
 import static org.junit.Assert.*;
 
 public class CallTestControllerJunit {
     @Test
     public void suma() {
-        assertEquals(40, Integer.sum(20, 20));
+        AssertTrue("ok");
+
     }
 
-    @Test
-    public void persona() {
-        fail("Fallo");
-    }
 
 }
