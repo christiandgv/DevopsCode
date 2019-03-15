@@ -13,5 +13,4 @@ public class CallTestControllerJunit {
         AssertTrue("ok");
 
     }
-
 }
