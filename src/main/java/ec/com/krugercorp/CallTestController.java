@@ -28,7 +28,7 @@ public class CallTestController {
 
     @Get("/persona")
     public String pesona() {
-        String result = "{'id':'1','nombre':'Christian', 'apellido':'Gudiño', 'mail':'cgudino@ec.krugercorp.com'}";
+        String result = "{'id':'1','nombre':'Christian', 'apellido':'Gudiño', 'mail':'cgudino@ec.krugercorp.com', 'test:1'}";
         System.err.println("prueba de log");
 
         return result;
