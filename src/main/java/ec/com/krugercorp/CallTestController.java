@@ -33,6 +33,7 @@ public class CallTestController {
     public String pesona() {
         String result = "{'id':'1','nombre':'Christian', 'apellido':'Gudiño', 'mail':'cgudino@ec.krugercorp.com'}";
         System.err.println("prueba de log");
+
         return result;
     }
 
