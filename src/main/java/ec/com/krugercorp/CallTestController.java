@@ -26,7 +26,6 @@ public class CallTestController {
         return "hOLA MUNDO que hay de nuevo, Esta es una prueba de despliegue continuo" ;
     }
 
-
     @Get("/persona")
     public String pesona() {
         String result = "{'id':'1','nombre':'Christian', 'apellido':'Gudiño', 'mail':'cgudino@ec.krugercorp.com'}";
